@@ -1,0 +1,13 @@
+# duckdb
+duckdb==0.8.1
+duckdb-engine==0.9.2
+jupysql==0.10.1
+jupysql-plugin==0.2.1
+pyarrow==13.0.0
+# jupyterlab
+jupyterlab==4.0.6
+jupyterlab-git==0.42.0
+# other
+pandas==2.0.3
+matplotlib==3.8.0
+# https://github.com/duckdb/duckdb/issues/8802
