@@ -1,0 +1,8 @@
+ler bases de dados
+exportar bases de dados
+join, merge concat,
+cte, window function, pivot
+condicionais (if, case, loc)
+group by
+select
+caminhos windows e unix (scapes)
