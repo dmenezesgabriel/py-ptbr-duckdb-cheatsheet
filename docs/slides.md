@@ -101,9 +101,10 @@ df.to_csv('data.csv') # Salvar arquivo csv
 <!-- backgroundColor: #fff -->
 <!-- class: "" -->
 
-DuckDB é um banco de dados **relacional**, _OLAP_ de código aberto de alto desempenho.
+DuckDB é um SGBD para banco **relacional**, _OLAP_ de código aberto de alto desempenho.
 
-- Relacional: armazena dados em tabelas com linhas e colunas.
+- SGBD: Sistema de Gerenciamento de Banco de Dados
+- Relacional: armazena dados em tabelas com linhas e colunas, e Utiliza SQL (Structured Query Language) para consultar os dados.
 - OLAP: processamento analítico online (Online Analytical Processing)
 
 ## OLAP vs OLTP
@@ -148,6 +149,7 @@ con.sql("COPY (SELECT * FROM my_table) TO 'output.csv' (HEADER, DELIMITER ',');"
 <!-- backgroundColor: #fff -->
 
 - **Python**: Linguagem de programação
+  - _Jupyter Notebook_
 - **Visual Studio Code**: Editor de código
 - **Git**: Controle de versão
 

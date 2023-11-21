@@ -1,4 +1,9 @@
 #!/bin/bash
+
+PYTHON_CMD="python3"
+LINUX_ENV="venv/bin/python"
+OTHER_ENV="venv/Scripts/python"
+
 # Check Operational System
 if [ "$(expr substr $(uname -s) 1 5)" = "Linux" ]; then
     echo "Linux"
@@ -11,15 +16,15 @@ fi
 # Create Virtual Environment
 if [ ! -d "venv" ]; then
     echo "Creating virtual environment..."
-    python3 -m venv venv
+    $PYTHON_CMD -m venv venv
 fi
 
 #  Update pip
-python3 -m pip install --upgrade pip
+$PYTHON_CMD -m pip install --upgrade pip
 
 # Install requirements
 if [ "$OS" = "linux" ]; then
-    venv/bin/python -m pip install -r requirements.txt
+    $LINUX_ENV -m pip install -r requirements.txt
 else
-    venv/Scripts/python -m pip install -r requirements.txt
+    $OTHER_ENV -m pip install -r requirements.txt
 fi
