@@ -1,8 +1,10 @@
 ler bases de dados
-exportar bases de dados
 join, merge concat,
-cte, window function, pivot
-condicionais (if, case, loc)
 group by
+condicionais (if, case, loc)
+
+exportar bases de dados
+cte, window function, pivot
+
 select
 caminhos windows e unix (scapes)
