@@ -9,7 +9,9 @@ jupyterlab==4.0.6
 jupyterlab-git==0.42.0
 # other
 pandas==2.0.3
-matplotlib==3.8.0
-# https://github.com/duckdb/duckdb/issues/8802
+# Excel
 openpyxl==3.1.2
 xlrd==2.0.1
+# Charts
+plotly==5.18.0
+matplotlib==3.8.0
