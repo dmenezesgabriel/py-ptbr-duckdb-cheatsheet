@@ -11,3 +11,5 @@ jupyterlab-git==0.42.0
 pandas==2.0.3
 matplotlib==3.8.0
 # https://github.com/duckdb/duckdb/issues/8802
+openpyxl==3.1.2
+xlrd==2.0.1
