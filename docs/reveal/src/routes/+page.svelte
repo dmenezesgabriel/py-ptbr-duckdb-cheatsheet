@@ -1,6 +1,6 @@
 <script lang="ts">
     import Slides from "$lib/deck/slides.svelte";
-    import '../app.postcss';
+    import '../app.pcss';
 </script>
 
 <svelte:head>
