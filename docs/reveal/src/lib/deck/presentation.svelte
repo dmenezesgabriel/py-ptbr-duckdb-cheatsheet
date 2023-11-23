@@ -16,11 +16,9 @@
     <div>
       <p class="text-4xl">Gabriel Menezes</p>
       <p class="text-3xl">Engenheiro de Software</p>
-      <ul class="list-none text-xl">
+      <ul class="list-none text-2xl">
         <li>
-          Análise e Desenvolvimento de Sistemas <span class="text-base"
-            >🎓 FIAP</span
-          >
+          Análise e Desenvolvimento de Sistemas <span class="text-base">🎓 FIAP</span>
         </li>
         <li>Arquitetura de Software <span class="text-base">🎓 FIAP</span></li>
       </ul>
@@ -28,114 +26,45 @@
   </div>
 </Slide>
 
-<Markdown>## Análise de dados com Python, Pandas e DuckDB 🦆</Markdown>
+<Slide>
+  <p class="text-5xl">Análise de dados</p>
+  <p class="text-2xl fragment fade-up">com Python, Pandas e DuckDB 🦆</p>
+</Slide>
 
 <Slide id="contents" animate>
-  <p class="text-6xl">Agenda</p>
-  <ul class="list-none">
-    <li>Introdução</li>
-  </ul>
-</Slide>
-<Slide id="contents" animate>
-  <ul class="list-none">
-    <li>Introdução</li>
-    <li>Python</li>
-  </ul>
-</Slide>
-<Slide id="contents" animate>
-  <ul class="list-none">
-    <li>Introdução</li>
-    <li>
+  <p class="text-3xl">Agenda</p>
+  <ul class="list-none text-xl">
+    <li class="fragment">Introdução</li>
+    <li class="fragment fade-up">
       Python
       <ul>
-        <li>Pandas</li>
+        <li class="fragment fade-up">Pandas</li>
+        <li class="fragment fade-up">DuckDB</li>
       </ul>
     </li>
-  </ul>
-</Slide>
-<Slide id="contents" animate>
-  <ul class="list-decimal">
-    <li>Introdução</li>
-    <li>
-      Python
-      <ul>
-        <li>Pandas</li>
-        <li>DuckDB</li>
-      </ul>
-    </li>
-  </ul>
-</Slide>
-<Slide id="contents" animate>
-  <ul class="list-none">
-    <li>Introdução</li>
-    <li>
-      Python
-      <ul>
-        <li>Pandas</li>
-        <li>DuckDB</li>
-      </ul>
-    </li>
-    <li>Hands On!</li>
+    <li class="fragment fade-up">Hands On!</li>
   </ul>
 </Slide>
 
 <Slide>Introdução</Slide>
 
+
 <Slide id="analysisTypes" animate>
   <p class="text-5xl">Tipos de análise de dados</p>
   <ul class="list-none text-3xl">
-    <li>
+    <li class="fragment fade-in">
       <span class="font-semibold">descritiva</span>
       <span class="text-sky-400/100">(o que aconteceu?)</span>
     </li>
-  </ul>
-</Slide>
-<Slide id="analysisTypes" animate>
-  <p class="text-5xl">Tipos de análise de dados</p>
-  <ul class="list-none text-3xl">
-    <li>
-      <span class="font-semibold">descritiva</span>
-      <span class="text-sky-400/100">(o que aconteceu?)</span>
-    </li>
-    <li>
+    <li class="fragment fade-up">
       <span class="font-semibold">diagnóstica</span>
       <span class="text-sky-400/75">(por que aconteceu?)</span>
     </li>
-  </ul>
-</Slide>
-<Slide id="analysisTypes" animate>
-  <p class="text-5xl">Tipos de análise de dados</p>
-  <ul class="list-none text-3xl">
-    <li>
-      <span class="font-semibold">descritiva</span>
-      <span class="text-sky-400/100">(o que aconteceu?)</span>
-    </li>
-    <li>
-      <span class="font-semibold">diagnóstica</span>
-      <span class="text-sky-400/75">(por que aconteceu?)</span>
-    </li>
-    <li>
+    <li class="fragment fade-in">
       <span class="font-semibold">preditiva</span>
       <span class="text-sky-400/50">(o que vai acontecer?)</span>
     </li>
-  </ul>
-</Slide>
-<Slide id="analysisTypes" animate>
-  <p class="text-5xl">Tipos de análise de dados</p>
-  <ul class="list-none text-3xl">
-    <li>
-      <span class="font-semibold">descritiva</span>
-      <span class="text-sky-400/100">(o que aconteceu?)</span>
-    </li>
-    <li>
-      <span class="font-semibold">diagnóstica</span>
-      <span class="text-sky-400/75">(por que aconteceu?)</span>
-    </li>
-    <li>
-      <span class="font-semibold">preditiva</span>
-      <span class="text-sky-400/50">(o que vai acontecer?)</span>
-    </li>
-    <li>
+    <li class="fragment fade-up">
       <span class="font-semibold">prescritiva</span>
       <span class="text-sky-400/50">(o que deve ser feito?)</span>
     </li>
@@ -157,12 +86,16 @@
 </Slide>
 
 <Slide>
-  ## Tipos de análise de dados com Python - ✔️ **descritiva**: média, mediana,
-  moda, desvio padrão, mínimo, máximo, entre outros. - ✔️ **diagnóstica**:
+  Tipos de análise de dados com Python
+  - ✔️ **descritiva**: média, mediana,
+  moda, desvio padrão, mínimo, máximo, entre outros.
+  - ✔️ **diagnóstica**:
   identificar padrões, tendências ou anomalias nos dados. Ex: correlação,
-  regressão, quartis, etc. - ✔️ **preditiva**: modelos estatísticos e
+  regressão, quartis, etc.
+  - ✔️ **preditiva**: modelos estatísticos e
   algoritmos, Ex: regressão, classificação ou outros métodos de machine learning
-  (IA) - ✔️ **prescritiva**: modelos para prescrever ações ou recomendações. Ex:
+  (IA)
+  - ✔️ **prescritiva**: modelos para prescrever ações ou recomendações. Ex:
   modelos de otimização, simulação, etc.
 </Slide>
 

@@ -19,7 +19,7 @@
       plugins: [Markdown, Highlight, Notes],
       autoAnimateEasing: "ease",
       autoAnimateDuration: 1,
-      slideNumber: true,
+      slideNumber: false,
       hash: false,
       // controls: false,
       // progress: false

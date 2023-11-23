@@ -1,10 +1,10 @@
 <script lang="ts">
-    import Slides from "$lib/deck/slides.svelte";
-    import '../app.pcss';
+  import Slides from "$lib/deck/slides.svelte";
+  import "../app.pcss";
 </script>
 
 <svelte:head>
-    <title>Presentation</title>
+  <title>Presentation</title>
 </svelte:head>
 
 <Slides />

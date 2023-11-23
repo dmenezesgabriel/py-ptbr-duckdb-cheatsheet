@@ -1,3 +1,3 @@
 <aside class="notes">
-	<slot />
+  <slot />
 </aside>
